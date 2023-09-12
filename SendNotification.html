@@ -1,0 +1,72 @@
+
+<
+
+
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Adding Users </title>
+  <link rel="stylesheet" href="SendNotification.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    a{
+        text-decoration:none ;
+        display:inline-block;
+        padding:8px 16px;
+    }
+    a:hover{
+       background-color:#ddd;
+       color:black;
+    }
+    .back{
+        background-color: lightblue;
+        color:black;
+    }
+</style>
+</head>
+
+<body>
+  <a href = "Admin1.html" class="back" width=10px>&laquo;Back</a>
+  <div class="container">
+    <div class="title">Notification</div>
+    <div class="content">
+      <form action="send.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="">
+              Employee Id</span>
+            <input type="text-box"  name="empId" required>
+          </div>
+          
+		  <div class="input-box">
+            <span class="details">
+              Date</span>
+            <input type="date" name="date">
+          </div>
+		  
+		
+		  
+          <div class="input-box">
+            <span class="details">
+              Message</span>
+            <textarea rows="5" cols="30" name="message"></textarea>
+          </div>
+         
+       
+			
+          <div class="input-box">
+            <span class="details">
+            </span>
+            <input type="submit" name="submit" value="Upload">
+          </div>
+
+
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

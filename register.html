@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Adding Users </title>
+  <link rel="stylesheet" href="register.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Doctor Registration</div>
+    <div class="content">
+      <form action="docsign.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">
+              Full Name</span>
+            <input type="text" placeholder="Enter  name" name="fname" pattern="[A-Za-z\s]+" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              SLMC_NO</span>
+            <input type="text" placeholder="Enter  SLMC Number" name="slmcid" required maxlength="12">
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Specialist IN 1</span>
+            <input type="text" placeholder="Enter  specialist field first priority" name="specialist1"
+              pattern="[A-Za-z\s]+" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Working Hospital</span>
+            <input type="text" placeholder="Working Hospital Name" name="hospital" pattern="[A-Za-z\s]+" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Specialist IN 2</span>
+            <input type="text" placeholder="Enter specialist field second priority" name="specialist2"
+              pattern="[A-Za-z\s]+">
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" placeholder="Enter  email address" name="email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              NIC_NO</span>
+            <input type="text" placeholder="Enter  NIC" name="nic" required pattern="^([0-9]{9}[x|X|v|V]|[0-9]{12})$">
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Address</span>
+            <input type="text" placeholder="Enter Address" name="address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              city</span>
+            <input type="text" placeholder="Enter City" name="city" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Fee</span>
+            <input type="text" placeholder="Enter Doctor fee" name="room" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">
+              Gender</span>
+            <select name="gender" required>
+              <option value="male" >Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Password</span>
+            <input type="password" placeholder="Enter Password" name="upassword" required><br><br>
+          </div>
+          <div class="input-box">
+            <span class="details">
+            </span>
+            <input type="submit" name="submit" value="Update">
+          </div>
+
+
+      </form>
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>

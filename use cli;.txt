@@ -1,0 +1,14 @@
+use cli;
+
+SELECT doctor.Fullname, booking.booking_id
+FROM booking
+INNER JOIN doctor ON booking.doctor = doctor.Doctor_Id;
+
+SELECT patient.patientname
+FROM booking
+INNER JOIN patient ON booking.patient = patient.patient_id;
+
+
+
+SELECT A.patientname,B.token_no
+FROM patient A , booking B where A.patient_id=B.patient and  B.doctor=104;

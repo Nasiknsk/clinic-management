@@ -1,0 +1,24 @@
+<style>
+ul {
+    margin: 12px;
+}
+li{
+    list-style-type:none;
+    background-color:lightblue ;
+    display: inline-flex;
+    
+}
+
+li a {
+     color: #000;
+    padding: 18px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+</style>

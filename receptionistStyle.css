@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.menu-bar
+{
+	background:#c0d2ef;
+
+	
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style:none;
+	color:#000;
+	font-size: 20px;
+
+}
+.menu-bar ul li
+{
+	position:relative;
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color: #000;
+}
+.menu-bar ul li :hover
+{	
+	color: #fff;
+}
+body
+{
+	background-color: #ecf0f6;
+}

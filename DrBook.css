@@ -1,0 +1,23 @@
+table{
+	width:1000px;
+	
+}
+
+th{
+	text-align:Center;
+}
+
+table, th, td{
+	border:5px solid  rgb(41, 41, 42);
+	border-collapse:collapse;
+}
+
+th{
+	padding:10px;
+}
+td{
+	padding:18px;
+}
+body{
+	background-color:#ecf0f6;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Responsive Registration Form | CodingLab </title>
+  <link rel="stylesheet" href="register.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Patient Registration</div>
+    <div class="content">
+      <form action="patientreg.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">
+              Full Name</span>
+            <input type="text" placeholder="Enter your name" pattern="[A-Za-z\s]+" name="fullname" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Date Of Birth</span>
+            <input type="date" placeholder="Enter your Date of birth" name="dob" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Address</span>
+            <input type="text" placeholder="Enter your address" name="address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              City</span>
+            <input type="text" placeholder="Enter your city" pattern="[A-Za-z]+" name="city" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Mobile Number</span>
+            <input type="text" placeholder="Enter your mobile number" pattern="[0-9]{10}" name="phone" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Email</span>
+            <input type="email" placeholder="Enter your number email" name="email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">
+              Password</span>
+            <input type="password" placeholder="Enter your password" name="upassword" minlength="8" required>
+          </div>
+
+
+
+          <div class="button">
+            <input type="submit" value="Register" name="submit"><br><br>
+            <a href="Patientlogin.html">Login to your account</a>&emsp;&emsp;&emsp;&emsp;
+            <a href="preSign.php">Back</a>
+          </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

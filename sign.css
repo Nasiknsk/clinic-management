@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    background-color:lightblue;
+    
+}
+table{
+    border: 0ch;
+    padding: auto;
+    color: blue;
+    
+}
+th{
+    align-content: center;
+}
+table img{
+    width: 200px;
+    height: 200px;
+    margin: 10%;
+    position: relative;
+}
+ul{
+    text-align: left;
+    padding: 12px;
+    background-color: cadetblue;
+    list-style-type: none;
+}
+body{
+    background-color: #ecf0f6;
+}
+img{
+    border-radius: 50%;
+}
+button{
+
+    border:aquamarine;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 4px 2px;
+    cursor: pointer;
+
+}
+
